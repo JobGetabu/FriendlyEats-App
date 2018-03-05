@@ -1,3 +1,106 @@
 <resources>
     <string name="app_name">FriendlyEats</string>
+
+    <string name="value_any_category">All food</string>
+    <string name="value_any_city">Anywhere</string>
+    <string name="value_any_price">Any price</string>
+
+    <string name="price_1">Ksh 100</string>
+    <string name="price_2">Ksh 500 - 1000</string>
+    <string name="price_3">Over Ksh 1000</string>
+
+    <string name="label_category">Category</string>
+    <string name="label_city">City</string>
+    <string name="label_price">Price</string>
+    <string name="label_sort_by">Sort By</string>
+
+    <string name="fmt_num_ratings" translatable="false">(%d)</string>
+    <string name="all_restaurants">All Restaurants</string>
+    <string name="header_filters">Filter</string>
+    <string name="search">Search</string>
+
+    <string name="sort_by_rating">Sort by Rating</string>
+    <string name="sort_by_popularity">Sort by Popularity</string>
+    <string name="sort_by_price">Sort by Price</string>
+
+    <string name="sorted_by_rating">sorted by rating</string>
+    <string name="sorted_by_price">sorted by price</string>
+    <string name="sorted_by_popularity">sorted by popularity</string>
+
+    <string name="add_random_items">Add Random Items</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="delete_all">Delete All</string>
+    <string name="divider_bullet">•</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your filter</string>
+    <string name="message_no_reviews">Be the first to leave a review!</string>
+    <string name="hint_review">How was your experience?</string>
+    <string name="submit">Submit</string>
+    <string name="filter_add_review">Add review</string>
+
+    <!-- Types of food I could think of in 5 minutes -->
+    <string-array name="categories">
+        <item>@string/value_any_category</item>
+
+        <item>Bananas</item>
+        <item>Ugali</item>
+        <item>Rice</item>
+        <item>Coffee</item>
+        <item>Beef</item>
+        <item>Hamburger</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Biriani</item>
+        <item>Mexican</item>
+        <item>Pizza</item>
+        <item>Chinese</item>
+        <item>Sushi</item>
+        <item>mix</item>
+
+    </string-array>
+    ite
+
+    <!-- 50 most populous cities in Kenya-->
+    <string-array name="cities">
+        <item>@string/value_any_city</item>
+
+        <item>Kisii</item>
+        <item>Thika</item>
+        <item>Nyeri</item>
+        <item>Nairobi</item>
+        <item>Mombasa</item>
+        <item>Eldoret</item>
+        <item>Kitui</item>
+        <item>Kibwezi</item>
+        <item>Makindu</item>
+        <item>Kiambu</item>
+        <item>Kisumu</item>
+        <item>Lodwar</item>
+        <item>Malindi</item>
+        <item>Machakos</item>
+        <item>Marsabit</item>
+        <item>Meru</item>
+        <item>Mandela</item>
+        <item>Nyahururu</item>
+        <item>Ruiru</item>
+        <item>Voi</item>
+        <item>Namanga</item>
+    </string-array>
+
+    <!-- Price filters -->
+    <string-array name="prices">
+        <item>@string/value_any_price</item>
+
+        <item>@string/price_1</item>
+        <item>@string/price_2</item>
+        <item>@string/price_3</item>
+    </string-array>
+
+    <!-- Ways you can sort restaurants -->
+    <string-array name="sort_by">
+        <item>@string/sort_by_rating</item>
+        <item>@string/sort_by_popularity</item>
+        <item>@string/sort_by_price</item>
+    </string-array>
 </resources>
