@@ -29,6 +29,9 @@ dependencies {
     // Firestore
     compile 'com.google.firebase:firebase-firestore:11.8.0'
 
+    //Firebase storage
+    compile 'com.google.firebase:firebase-storage:11.8.0'
+
     // Other Firebase/Play services deps
     compile 'com.google.firebase:firebase-auth:11.8.0'
     compile 'com.google.android.gms:play-services-auth:11.8.0'
