@@ -9,4 +9,8 @@
     <color name="greyDisabled">#61000000</color>
     <color name="fabColor">#E44F00</color>
     <color name="fabColorRipple">#812e01</color>
+
+    <color name="autoBg">#61000000</color>
+    <color name="autoCtlNorm">#812e01</color>
+    <color name="autoCtlAct">#E44F00</color>
 </resources>

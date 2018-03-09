@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FriendlyEats</string>
+    <string name="app_name">Friendly Eats</string>
 
     <string name="value_any_category">All food</string>
     <string name="value_any_city">Anywhere</string>
@@ -32,12 +32,18 @@
     <string name="delete_all">Delete All</string>
     <string name="divider_bullet">•</string>
     <string name="apply">Apply</string>
+    <string name="save">Save</string>
     <string name="cancel">Cancel</string>
     <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your filter</string>
     <string name="message_no_reviews">Be the first to leave a review!</string>
     <string name="hint_review">How was your experience?</string>
     <string name="submit">Submit</string>
     <string name="filter_add_review">Add review</string>
+    <string name="restraunt_description_image">Change the restraunt image</string>
+    <string name="name_of_restrant">Name of Restaurant</string>
+    <string name="city">City</string>
+    <string name="category_of_food">Category of food</string>
+    <string name="add_item">Add Item</string>
 
     <!-- Types of food I could think of in 5 minutes -->
     <string-array name="categories">
