@@ -28,6 +28,7 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.CollectionReference;
@@ -133,7 +134,11 @@ public class RestaurantDialogueFragment extends DialogFragment {
             filePath = data.getData();
             try {
                 Bitmap bitmap = MediaStore.Images.Media.getBitmap(getActivity().getContentResolver(), filePath);
-                imageView.setImageBitmap(bitmap);
+                // Load image
+                Glide.with(imageView.getContext())
+                        .load(bitmap)
+                        .into(imageView);
+                imageView.setScaleType(ImageView.ScaleType.FIT_XY);
             }
             catch (IOException e)
             {

@@ -255,7 +255,8 @@ public class MainActivity extends AppCompatActivity implements
                 onAddItemsClicked();
                 break;
             case R.id.menu_add_an_item:
-                onItemAddClicked();
+                //onItemAddClicked();
+                mRestrauntFragment.show(getFragmentManager(), RestaurantDialogueFragment.TAG);
                 break;
             case R.id.menu_sign_out:
                 AuthUI.getInstance().signOut(this);
